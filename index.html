@@ -13,19 +13,23 @@
             <div class="titolo">
                 <h1 class="text-center">Gioco del tris</h1>
             </div>
-            <div class="turno">
-                <h2 class="text-center" id="turno">Turno: <span id="turnoPlayer">X</span></h2>
+            <div id="turnoScelta" class="turnoScelta d-flex flex-column">
+                <h2 class="txtScelta text-center">Scelta del turno casuale</h2>
+                <button onclick="btnScelta()" class="btnScelta">Turno</button>
             </div>
-            <div class="gameIn row">
-                <button onclick="btnGame1Func()" id="btnGame1" class="col-sm-4 bg-light"></button>
-                <button onclick="btnGame2Func()" id="btnGame2" class="col-sm-4 bg-light"></button>
-                <button onclick="btnGame3Func()" id="btnGame3" class="col-sm-4 bg-light"></button>
-                <button onclick="btnGame4Func()" id="btnGame4" class="col-sm-4 bg-light"></button>
-                <button onclick="btnGame5Func()" id="btnGame5" class="col-sm-4 bg-light"></button>
-                <button onclick="btnGame6Func()" id="btnGame6" class="col-sm-4 bg-light"></button>
-                <button onclick="btnGame7Func()" id="btnGame7" class="col-sm-4 bg-light"></button>
-                <button onclick="btnGame8Func()" id="btnGame8" class="col-sm-4 bg-light"></button>
-                <button onclick="btnGame9Func()" id="btnGame9" class="col-sm-4 bg-light"></button>
+            <div id="turnoLive" class="turnoLive">
+                <h2 class="text-center" id="turno">Turno: <span id="turnoPlayer"></span></h2>
+            </div>
+            <div id="gameIn" class="gameIn row">
+                <button onclick="btnGame1Func()" id="btnGame1" class="bg-light"></button>
+                <button onclick="btnGame2Func()" id="btnGame2" class="bg-light"></button>
+                <button onclick="btnGame3Func()" id="btnGame3" class="bg-light"></button>
+                <button onclick="btnGame4Func()" id="btnGame4" class="bg-light"></button>
+                <button onclick="btnGame5Func()" id="btnGame5" class="bg-light"></button>
+                <button onclick="btnGame6Func()" id="btnGame6" class="bg-light"></button>
+                <button onclick="btnGame7Func()" id="btnGame7" class="bg-light"></button>
+                <button onclick="btnGame8Func()" id="btnGame8" class="bg-light"></button>
+                <button onclick="btnGame9Func()" id="btnGame9" class="bg-light"></button>
             </div>
         </div>        
     </main>
